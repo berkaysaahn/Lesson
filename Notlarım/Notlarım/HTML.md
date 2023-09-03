@@ -60,3 +60,40 @@ a(anchor) etiketi ile link verilerek sayfa içerisinde veya dışarısında fark
 
 > [!example] Örnek
 > -a href="~/Kodlar/html/uygulama1.html" target="_blank"- Uygulama1 -/a-
+
+3. <b>Sayfa İçerisindeki Metne Link Verme:</b> Bu işlemde linke tıklanınca sayfa içerisinde belirlenen bir yere gidilir. href parametresi ve name parametresi ile yapılır, aşağıda örneği verilmiştir:
+
+> [!example] Örnek
+> -a href="#altagidiyor"-aşağıya link verdim-/a-
+> burada uzun bir metin olduğunu varsayalım.
+> -a name="altagidiyor"- -a-
+> buradada bir metin var
+
+Yukarıdaki örnekte "aşağıya link verdim" yazısına tıklanınca aşağıdaki burada bir metin var yazan kısıma gider.
+
+#### table, td, tr Etiketi ve Parametreleriyle Tablo Oluşturma
+table etiketi tablo oluşturmaya yarar, table etiketinin altına tr(table row) etiketi gelerek bir adet satır oluşur ama boştur. Bu satırı doldurmak için td(table data) etiketi kullanılır bu etiket ile row'da bir adet hücre oluşur, row içerisine bir adet daha td eklenirse bir satırı ikiyi bölen hücreler oluşur. Şimdi parametrelere geçelim.
+1. <b>border Parametresi:</b> Bu parametre kenar çizgisi oluşturulmak için table ile kullanılır tablonun en dış çerçevesinin kalınlığını belirler.
+2. <b>width Parametresi:</b> Bu parametre table etiketi altındada td ve tr'nin altındada çalışır ama en iyi kullanımı table altındadır çünki uğraştırmaz.
+3. <b>bgcolor(backgraund color) Parametresi:</b> Bu parametre ile istenirse table ile kullanılıp komple tablonun arka planı istenilirse td ve istenilirse tr ile kullanılarak istenilen satır veya hücreye renk verilebilir.
+5. <b>tr(table row) Etkiekti:</b> Bu parametre ile tablo içerisinde bir satır eklenir ama boştur tek başına işe yaramaz ve td ile kullanılması gereklidir.
+6. <b>td(table data) Etiketi:</b> Bu parametre ile tr içerisinde hücre oluşturlur. 
+7. <b>height Parametresi:</b> Bu parametre tr ve table etiketlerinde kullanılabilir ancak tr ile kullanılması daha sorunsuzdur. Tek bir td ye height değeri vermek o tr içerisindeki diğer td lerinde aynı boyutu almalarını sağlar.
+8. <b>align Parametresi:</b> Bu parametre td ile kullanılır ve td içerisinde yazan metnin td içerisindeki konumunu belirtmek için kullanılır. 
+9. <b>rowspan Parametresi:</b> rowspan ile satır genişlği belirtilir, belirtilmediği durumlarda hücrede sıkıntı olur. Örneğin tr altında bir adet td bulunsun ve bir diğer tr altında iki adet td bulunsun bu durumda ilk tr'de bulunan td nin yanı boş bir hücre olarak gözükür. Bu durumun önüne geçmek için rowspan kullanılır ve değer olarak 2 verilir çünkü 2 hücrelik yer kaplasın istiyoruz.
+10. <b>colspan(column span) Parametresi:</b> Bu parametre rowspan ile çok benzerdir tek farkı bu parametrenin column yani sütun için kullanılmasıdır. Bu parametrenin kullanımında alttaki td lerinde üste göre boş bırakılması gerekir ve colspan'in olduğu yerde boyut belirtilmez. Örneğin tr içerisinde iki adet td olsun ve ilk td'ye colspan verilsin diğer tr'lerin altına bir adet td konulur, nedeni ise yukarıda belirtilen colspanin verilmeyen td lerin yerine geçmesidir.
+
+> [!Example] Örnek
+> --tabel border="1" width="200" bgcolor="blue"--
+> 
+> --tr bgcolor="green"--
+> --td rowspan="2"--
+> --td colspan="2"--
+> --/tr--
+> 
+> --tr--
+> --td bgcolor="red" height="25" align="center"-- metin ortada --/td--
+> --/tr--
+> 
+> --/table--
+ 
