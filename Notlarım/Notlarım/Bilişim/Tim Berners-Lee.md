@@ -1,0 +1,3 @@
+Sör Timothy John Berners-Lee , İngiliz mühendis ve bilgisayar bilimi profesörü.
+
+1984 yılınde [[CERN]]'de HTML işaretleme dilini geliştirerek WWW(World Wide Web)'yu oluşturmuştur. Aynı zamanda 1990 yılında ilk web tarayıcısını geliştirmiştir. 1994 yılında ağ ile ilgili standartları dünya çapında belirleyecek açık bir kurum olan [[W3C]]'yi kurmuştur ve de başkanlığını yapmıştır. 2004 yılında ıı.Elizabet tarafından kendisine sör ünvanı verilmiştir. Şu anda W3C'nin başkanı, MIT ve Oxford Üniversitesini'nde profesörüdür.

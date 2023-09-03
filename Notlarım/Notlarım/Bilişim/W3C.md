@@ -1,0 +1,1 @@
+Dünya Çapında Ağ Konsorsiyumu (World Wide Web Consortium ya da kısaca W3C), Ekim 1994'te Ağ'ın mucidi [[Tim Berners-Lee]] tarafından [[MIT]] ve [[CERN]] bünyesinde kurulmuş olan uluslararası Dünya Çapında Ağ (WWW) standartlarını belirleyen örgüttür.
